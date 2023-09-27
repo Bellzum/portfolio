@@ -1,0 +1,10 @@
+// Source: https://css-tricks.com/snippets/sass/px-to-em-functions/
+@function rem($pixels, $context: 16) {
+    @return calc(#{$pixels} /#{$context} *1rem);
+}
+// the function will convert pixels to grams
+
+// to use this function
+// h1 {
+    //font-size: rem(30);}
+    
